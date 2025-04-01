@@ -1,0 +1,101 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/download\ \(1\).jpg') no-repeat center center/cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    text-align: center;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    color: white;
+}
+
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.input-field {
+    width: 80%;
+    padding: 12px;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    color: black;
+    outline: none;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.input-field::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.input-field:focus {
+    background: rgba(255, 255, 255, 0.5);
+    border-color: #ffcc00;
+}
+
+/* Button */
+.btn {
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffaa00;
+}
+
+/* Weather Info Card */
+.weather-info {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.weather-info h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.weather-info p {
+    margin: 5px 0;
+}
+
+
+.error {
+    color: #ff4c4c;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
