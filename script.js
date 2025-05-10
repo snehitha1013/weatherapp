@@ -1,4 +1,4 @@
-const API_KEY = "8dd4d7bd8ad0458398b164642250104 "; // Replace with your key // Replace with your actual WeatherAPI key
+const API_KEY = "8dd4d7bd8ad0458398b164642250104 "; 
 
 async function getWeather() {
     const cityInput = document.getElementById("cityInput");
@@ -25,10 +25,9 @@ async function getWeather() {
             return;
         }
 
-        // Clear input after fetching
+        
         cityInput.value = "";
 
-        // Display weather information
         weatherInfo.innerHTML = `
             <div class="weather-card">
                 <h2>${data.location.name}, ${data.location.country}</h2>
